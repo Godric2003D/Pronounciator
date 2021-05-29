@@ -1,25 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pronounciator.css">
     <title>Pronounciator</title>
-</head>
-<body>
-    <h2 id="t">Pronounciator</h2>
-    <h5>Welcome to a place where you can correct your prounciation</h5>
-    <p>Speak now</p>
-    <p><button type="button" onclick="runSpeechRecognition()">Speech to Text</button> &nbsp; <span id="action"></span>
-    </p>
-    <div id="output" class="hide"></div>
     
-    <h2>Text to Speech</h2>
-    <div><input type="text" id="text-to-speech" placeholder="Enter text to speak..." /></div>
-    <div><button type="button" onclick="textToAudio()">Speak</button></div>
-    <br />
-    <div><small> Enter text and click on speak button.</small></div>
-    <script src="pronounciation.js"></script>
+</head>
+
+<body>
+    
+    <div class="hero-image">
+        <div class="hero-text">
+            <h2 id="t">Pronounciator</h2>
+            <h3>Welcome to a place where you can correct your pronounciation</h3>
+            <h2>Speech to Text</h2>
+            <p>Speak now</p>
+            <p><button type="button" onclick="runSpeechRecognition()">Speech to Text</button> &nbsp; <span
+                    id="action"></span>
+            </p>
+            <div id="output" class="hide" style="color: black;"></div>
+
+            <h2>Text to Speech</h2>
+            <div><input type="text" id="text-to-speech" placeholder="Enter text to speak..." /></div>
+            <div><button type="button" onclick="textToAudio()">Speak</button></div>
+            <br />
+            <div><small> Enter text and click on speak button.</small></div>
+            <script src="pronounciation.js"></script>
+        </div>
+    </div>
+
 </body>
+
 </html>
