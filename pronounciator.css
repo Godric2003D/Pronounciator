@@ -1,7 +1,4 @@
-	/* CSS comes here */
-    body {
-        font-family: arial;
-    }
+
     button {
         padding:10px;
         background-color:#6a67ce;
@@ -26,7 +23,7 @@
     body, html {
         height: 100%;
         margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: Copperplate, Papyrus, fantasy;
       }
       
       .hero-image {
